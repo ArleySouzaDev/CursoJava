@@ -1,0 +1,25 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Console {
+	public static void main(String[] args) {
+		System.out.print("bom");
+		System.out.print(" dia\n");
+		
+		System.out.println("Bom");
+		System.out.println("Dia");
+		
+		System.out.printf("Megasena: %d %d %d %d %d %d %n", 
+				4, 8,10,11,13,15);
+		
+		System.out.printf("Salário: %.1f%n", 1344.9999);
+		System.out.printf("Nome: %s%n", "João");
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		entrada.nextLine();
+		
+		
+	}
+}

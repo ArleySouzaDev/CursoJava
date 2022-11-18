@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class Console {
+	public static void main(String[] args) {
+		System.out.print("bom");
+		System.out.print(" dia\n");
+		
+		System.out.println("Bom");
+		System.out.println("Dia");
+		
+		System.out.printf("Megasena: %d %d %d %d %d %d", 4, 8,10,11,13,15);
+		
+		
+	}
+}
