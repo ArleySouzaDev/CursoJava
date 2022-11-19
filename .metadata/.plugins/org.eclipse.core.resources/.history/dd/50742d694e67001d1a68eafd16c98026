@@ -1,0 +1,18 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+public class ConversaoStringNumero {
+	public static void main(String[] args) {
+
+		
+		String valor1String = JOptionPane.showInputDialog
+				("Digite o primeiro número: ");
+		String valor2String = JOptionPane.showInputDialog
+				("Digite o segundo número: ");
+		
+		System.out.println(valor1String + valor2String);
+		
+		double numero1 = Double.parseDouble(valor1);
+	}
+}
