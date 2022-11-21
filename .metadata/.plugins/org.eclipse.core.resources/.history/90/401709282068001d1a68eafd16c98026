@@ -1,0 +1,36 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class DesafioDiaDaSemana {
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+		// Dom 1, Seg 2, Ter 3, Qua 4, Qui 5, Sex 6, Sab 7
+
+		System.out.println("Digite o dia: ");
+		int dia = entrada.nextInt();
+
+		if (dia > 8 || dia < 1) {
+			System.out.println("Dia inexistente.");
+		} else if (dia == 1) {
+			System.out.println("Hoje é Domingo!");
+		} else if (dia == 2) {
+			System.out.println("Hoje é Segunda-Feira!");
+		} else if (dia == 3) {
+			System.out.println("Hoje é Terça-Feira!");
+		} else if (dia == 4) {
+			System.out.println("Hoje é Quarta-Feira!");
+		} else if (dia == 5) {
+			System.out.println("Hoje é Quinta-Feira!");
+		} else if (dia == 6) {
+			System.out.println("Hoje é Sexta-Feira!");
+		} else if (dia == 7) {
+			System.out.println("Hoje é Sábado!");
+		} else {
+			System.out.println("Fim do programa!");
+		}
+
+		entrada.close();
+	}
+}

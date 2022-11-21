@@ -1,0 +1,20 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class DesafioIF {
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Informe a média do aluno");
+		double media = entrada.nextDouble();
+		
+
+		if (media >= 9.0) {
+			System.out.println("Está entre os melhores");
+			System.out.println("Parabéns!!");
+		}
+		entrada.close();
+	}
+
+}
